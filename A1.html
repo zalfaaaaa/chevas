@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO</title>
+    <style>
+        body{
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background-color: rgb(253, 223, 228);
+        }
+        .side {
+            background-color: #CEDF9F;
+            margin: 50px auto;
+            width: 500px;
+            padding: 10px;
+            border-radius: 20px;
+            color: white;
+        }
+        hr {
+            border-top: 1px solid white;
+        }
+        h1{
+            text-align: center;
+            color: rgb(53, 107, 27);
+        }
+        .button {
+            margin-bottom: 3%;
+            margin-top: 8%;
+            text-align: end;
+        }
+        button {
+            background-color: rgb(53, 107, 27);
+            color: white;
+            padding: 10px;
+            border: none;
+            width: 40%;
+            border-radius: 10px;
+            font-weight: bold;
+        }
+        form{
+            margin-left: 6%;
+        }
+        input, textarea{
+            border-radius: 10px;
+            width: 90%;
+            height: 40px;
+            border: 3px solid pink;
+            text-align: center;
+            text-shadow: 5%;
+        }
+        textarea {
+            height: 100px;
+        }
+        h3{
+            text-shadow: 1px 1px #6e6e6e;
+        }
+    </style>
+</head>
+<body>
+    <div class="side">
+        <h1>TO-DO List</h1>
+        <hr>
+            <form action="">
+                <h3>Nama</h3>
+                <input type="text" placeholder="Masukan nama tugas">
+                <h3>Deskripsi Tugas</h3>
+                <textarea name="Deskripsi" id="desc" placeholder="Masukan deskripsi tugas"></textarea>
+                <h3>Deadline Tugas</h3>
+                <input type="date">
+                <div class="button">
+                    <button>Tambahkan</button>
+                </div>
+            </form>
+    </div>
+</body>
+</html>
